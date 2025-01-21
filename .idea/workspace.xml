@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e69312a7-6d8b-4503-be13-6e61857c29d4" name="Changes" comment="Upload project" />
+    <list default="true" id="e69312a7-6d8b-4503-be13-6e61857c29d4" name="Changes" comment="Upload project">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +63,7 @@
     "Python.yoomoney_methodes.executor": "Run",
     "Python.yoomoney_payment.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/Lenovo/Desktop/All important/python/TG_bots/DatingBot",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
@@ -113,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737478129111</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Upload project">
+      <option name="closed" value="true" />
+      <created>1737479360924</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737479360925</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
