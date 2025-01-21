@@ -172,3 +172,4 @@ cython_debug/
 
 # Virtual environment
 /.venv/
+.idea/
