@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e69312a7-6d8b-4503-be13-6e61857c29d4" name="Changes" comment="Upload project">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e69312a7-6d8b-4503-be13-6e61857c29d4" name="Changes" comment="Upload project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,32 +39,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.buttons.executor": "Run",
-    "Python.config.executor": "Run",
-    "Python.create_liked_form.executor": "Run",
-    "Python.database_code.executor": "Run",
-    "Python.different_functions.executor": "Run",
-    "Python.form_steps_states.executor": "Run",
-    "Python.forms_queue.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.main_menu.executor": "Run",
-    "Python.media_group_utils.executor": "Run",
-    "Python.orb.executor": "Run",
-    "Python.run.executor": "Run",
-    "Python.start.executor": "Run",
-    "Python.string_to_list.executor": "Run",
-    "Python.update_forms.executor": "Run",
-    "Python.yookassa_methodes.executor": "Run",
-    "Python.yoomoney_methodes.executor": "Run",
-    "Python.yoomoney_payment.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Lenovo/Desktop/All important/python/TG_bots/DatingBot",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.buttons.executor&quot;: &quot;Run&quot;,
+    &quot;Python.config.executor&quot;: &quot;Run&quot;,
+    &quot;Python.create_liked_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python.database_code.executor&quot;: &quot;Run&quot;,
+    &quot;Python.different_functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.form_steps_states.executor&quot;: &quot;Run&quot;,
+    &quot;Python.forms_queue.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_menu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.media_group_utils.executor&quot;: &quot;Run&quot;,
+    &quot;Python.orb.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run.executor&quot;: &quot;Run&quot;,
+    &quot;Python.start.executor&quot;: &quot;Run&quot;,
+    &quot;Python.string_to_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.update_forms.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yookassa_methodes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yoomoney_methodes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yoomoney_payment.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/Desktop/All important/python/TG_bots/DatingBot&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\Desktop\All important\python\TG_bots\DatingBot\bot\handlers\callback_queries\scrolling" />
@@ -125,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737479360925</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Upload project">
+      <option name="closed" value="true" />
+      <created>1737480374866</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737480374866</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
