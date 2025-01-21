@@ -33,7 +33,7 @@ async def do_forms_queue(user_id):
                                                                                                form[10].split('|'))
 
                 # Проверка на совпадение параметров анкеты
-                if forms_city == users_city and (abs(forms_age-users_age) <= 5) and forms_goal == users_goal:
+                if forms_city == users_city and (abs(forms_age-users_age) <= 5):
                     if users_gender_choices[0] in forms_gender_choices[1] and forms_gender_choices[0] in users_gender_choices[1]:
                         if users_location and bool(pre_forms_location[0]):
                             forms_location = (pre_forms_location[0], pre_forms_location[1])
@@ -44,28 +44,29 @@ async def do_forms_queue(user_id):
                             forms_queue.append([form[0], None])
 
         # Сортировка по расстоянию
-        result_spic = []
-        while forms_queue:
-            try:
-                min_element = min(i[1] for i in forms_queue if i[1])
-                k = -1  # Счётчик, чтобы получить индекс анкеты
+        forms_queue.sort(key=lambda x: x[1] if x[1] else 0)
+        # result_spic = []
+        # while forms_queue:
+        #     try:
+        #         min_element = min(i[1] for i in forms_queue if i[1])
+        #         k = -1  # Счётчик, чтобы получить индекс анкеты
+        #
+        #         for j in forms_queue:
+        #             k += 1
+        #             if j[1] == min_element:
+        #                 break
+        #
+        #         result_spic.append(forms_queue[k])
+        #
+        #         forms_queue.remove(forms_queue[k])
+        #     except ValueError:
+        #         result_spic += forms_queue  # Добавляем анкеты без расстояния
+        #         break
 
-                for j in forms_queue:
-                    k += 1
-                    if j[1] == min_element:
-                        break
-
-                result_spic.append(forms_queue[k])
-
-                forms_queue.remove(forms_queue[k])
-            except ValueError:
-                result_spic += forms_queue  # Добавляем анкеты без расстояния
-                break
-
-        db.set_user_value(user_id=user_id, forms_row=str(result_spic))
+        db.set_user_value(user_id=user_id, forms_row=str(forms_queue))
         db.set_user_value(user_id=user_id, current_form_index=None)
 
-        return result_spic
+        return forms_queue
     except Exception as e:
         logger.error('Ошибка в do_forms_queue: %s', e)
 
